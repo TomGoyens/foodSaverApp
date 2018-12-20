@@ -1,0 +1,33 @@
+body{
+  background-color: #71C182;
+}
+
+.appTitle{
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 64px;
+}
+.appSubtitle{
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 22px;
+}
+.inputEmail{
+  width: 100%;
+  padding: 5px 4px;
+  margin: 10px 0;
+}
+
+.inputPassword{
+  width: 100%;
+  padding: 5px 4px;
+  margin: 10px 0;
+}
