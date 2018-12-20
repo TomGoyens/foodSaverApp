@@ -3,16 +3,49 @@
 
 <head>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/scss/maporfavo.css">
   <title>FoodSaver</title>
 </head>
 
 <body>
-  <div class="container" onclick="myFunction(this)">
-    <div class="bar1"></div>
-    <div class="bar2"></div>
-    <div class="bar3"></div>
+  <div class="container">
+    <div class="header">
+      <div class="titel">
+        <h1>FoodSaver</h1>
+        <p>Save food & Money</p>
+      </div>
+      <div class="settings" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+    <div class="cards">
+      <a href="">
+      <div class="cardleft" style="width: 18rem;">
+        <img class="card-img-left" src="./assets/img/mapslogo.png" alt="Card image cap">
+        <div class="card-body">
+          <h2 class="card-text">Search the map</h2>
+          <p>Search for restaurants and stores for their great offers</p>
+        </div>
+      </div>
+      </a>
+      <a href="">
+      <div class="cardright" style="width: 18rem;">
+        <img class="card-img-right" src="./assets/img/heart.png" alt="Card image cap">
+        <div class="card-body">
+          <h2 class="card-text">Your favourites</h2>
+          <p>Check out your favourite restaurant for great deals</p>
+        </div>
+      </div>
+      </a>
+    </div>
+
+
   </div>
 
 </body>
+<script src="./assets/js/maporfavo.js"></script>
 
 </html>
