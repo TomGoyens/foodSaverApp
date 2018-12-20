@@ -1,0 +1,46 @@
+body {
+  background-color: #71C182;
+}
+
+.login, .createAccount, .appSubtitle, .appTitle {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.appTitle {
+  font-size: 64px;
+  margin-top: 10vh;
+}
+
+.appSubtitle {
+  font-size: 22px;
+  margin-bottom: 15vh;
+}
+
+.inputPassword, .inputEmail {
+  width: 100%;
+  padding: 8px 12px;
+  margin: 10px 0;
+}
+
+.createAccount {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+}
+
+.login {
+  font-size: 36px;
+  width: 100%;
+  background-color: #fff;
+  color: #71C182;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10vh;
+}
+
+/*# sourceMappingURL=style.css.map */
