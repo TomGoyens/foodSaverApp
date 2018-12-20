@@ -30,12 +30,43 @@ body{
     margin: 10px 0;
 }
 
-.inputEmail{
+
+
+
+#inputEmail{
   @extend %input;
 }
 
-.inputPassword{
+#inputPassword{
   @extend %input;
+}
+
+#registerName{
+  @extend %input;
+}
+#registerFirstName{
+  @extend %input;
+}
+
+#registerPassword{
+  @extend %input;
+}
+
+#registerPasswordAgain{
+  @extend %input;
+}
+
+.termsCon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  label{
+    margin: 0;
+  }
+}
+
+label{
+  @extend %text;
 }
 
 .createAccount{

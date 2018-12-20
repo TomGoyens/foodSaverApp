@@ -2,7 +2,7 @@ body {
   background-color: #71C182;
 }
 
-.login, .createAccount, .appSubtitle, .appTitle {
+.login, .createAccount, label, .appSubtitle, .appTitle {
   color: #fff;
   text-align: center;
   font-family: Roboto;
@@ -21,10 +21,19 @@ body {
   margin-bottom: 15vh;
 }
 
-.inputPassword, .inputEmail {
+#registerPasswordAgain, #registerPassword, #registerFirstName, #registerName, #inputPassword, #inputEmail {
   width: 100%;
   padding: 8px 12px;
   margin: 10px 0;
+}
+
+.termsCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.termsCon label {
+  margin: 0;
 }
 
 .createAccount {
